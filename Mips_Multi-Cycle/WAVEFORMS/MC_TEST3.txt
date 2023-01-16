@@ -1,0 +1,15 @@
+li $6, 7
+
+lui $5, 4
+
+li $4, 7
+
+add $10 ,$6 , $5
+
+sw $10, 16($zero)
+
+beq $6, $4,1  -- true ( PC+4+SingedExtend(immed<<2)
+
+lw $1,16($zero)  -- never execute
+
+add $2,$zero,$4

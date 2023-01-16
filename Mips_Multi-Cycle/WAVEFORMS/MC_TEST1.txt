@@ -1,0 +1,5 @@
+bne $3 , $3 , 8 --failed ----> ( PC + 4)
+
+b -2  --back to bne,infinite loop!
+
+addi $1 , $0 , $1 -- never execute

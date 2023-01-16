@@ -1,0 +1,9 @@
+addi    $3,$0,2  -- addi 2 in register 3
+
+beq     $1,$1,2 -- true--->(PC+4+signedExtend(Immed<<2))
+
+ori     $3,$0,0xABCD -- never execute
+
+sw   $3 , 4($zero)  --never execute
+
+sb  $3 , 8($zero)  -- store byte in position 1026.

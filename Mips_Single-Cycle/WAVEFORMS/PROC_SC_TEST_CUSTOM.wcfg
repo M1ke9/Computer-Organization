@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/organwsh/test/PROC_SC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mypackage" />
+            <top_module name="numeric_std" />
+            <top_module name="proc_sc_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/proc_sc_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/instruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_IFSTAGE/Inst_IF_MODULE/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_IFSTAGE/pc_lden" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_lden</obj_property>
+      <obj_property name="ObjectShortName">pc_lden</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/rf_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wren</obj_property>
+      <obj_property name="ObjectShortName">rf_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/Inst_RF/awr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/rf_wrdata_sel" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_wrdata_sel</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_EXSTAGE/alu_func" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_func[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_func[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_EXSTAGE/Inst_ALU/zero" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/mem_wren" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_wren</obj_property>
+      <obj_property name="ObjectShortName">mem_wren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/Inst_RF/regout[3]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[3]</obj_property>
+      <obj_property name="ObjectShortName">regout[3]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/Inst_RF/regout[5]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[5]</obj_property>
+      <obj_property name="ObjectShortName">regout[5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/Inst_RF/regout[10]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[10]</obj_property>
+      <obj_property name="ObjectShortName">regout[10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_DECSTAGE/Inst_RF/regout[16]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[16]</obj_property>
+      <obj_property name="ObjectShortName">regout[16]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/Inst_RAM/ram[1024]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1024]</obj_property>
+      <obj_property name="ObjectShortName">ram[1024]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/Inst_RAM/ram[1025]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1025]</obj_property>
+      <obj_property name="ObjectShortName">ram[1025]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/Inst_RAM/ram[1026]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1026]</obj_property>
+      <obj_property name="ObjectShortName">ram[1026]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/Inst_RAM/ram[1027]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1027]</obj_property>
+      <obj_property name="ObjectShortName">ram[1027]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/proc_sc_tb/uut/Inst_DATAPATH/Inst_MEMSTAGE/Inst_RAM/ram[1028]" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">[1028]</obj_property>
+      <obj_property name="ObjectShortName">ram[1028]</obj_property>
+   </wvobject>
+</wave_config>
